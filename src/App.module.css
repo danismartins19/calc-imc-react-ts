@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerContainer{
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.container{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container .leftSide{
+    flex: 1;
+    margin-right: 40px;
+}
+
+.container .leftSide h1{
+    font-size: 40px;
+    color: #3A4B5C;
+    margin-bottom: 20px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400 ;
+}
+
+.container .leftSide p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #6A7D8B;
+}
+
+.container .leftSide input{
+    width: 100%;
+    border: 0;
+    height: 40px;
+    border-bottom: 1px solid #1f252b;
+    margin-bottom: 40px;
+    outline: 0;
+    transition: .5s;
+}
+
+.container .leftSide input:focus{
+    border-color: #145f21;
+}
+
+.container .leftSide button{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background-color: #1f6e2c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease .3s;
+    margin-top: 20px;
+}
+
+.container .leftSide button:hover{
+    background-color: #378f45;
+}
+
+.container .rightSide{
+    flex: 1;
+    margin-left: 40px;
+}
