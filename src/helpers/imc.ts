@@ -14,7 +14,7 @@ export const levels : Level[] = [
 ];
 
 export const calculateImc = (height: number, weight: number) =>{
-    let imc : number = weight / (height * height);
+    let imc : number = (weight / (height * height));
     
     for (let i in levels){
         if(imc >= levels[i].imc[0] && imc <= levels[i].imc[1]){
