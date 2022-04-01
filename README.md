@@ -11,3 +11,7 @@ Projeto desenvolvido durante o curso de React da B7Web.
 ### Execução:
 
 - `npm run dev`
+
+### Deploy:
+
+- https://calc-imc-react.netlify.app/
