@@ -68,7 +68,12 @@ body{
 }
 
 .container .leftSide button:hover{
-    background-color: #378f45;
+    opacity: .7;
+}
+
+.container .leftSide button:disabled{
+    opacity: 0.5;
+    cursor: no-drop;
 }
 
 .container .rightSide{
@@ -88,6 +93,20 @@ body{
 .container .rightSide .rightBig{
     flex: 1;
     display: flex;
+}
+
+.container .rightSide .rightArrow{
+    position: absolute;
+    background-color: rgb(58, 132, 167);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    margin-top: 145px;
 }
 
 

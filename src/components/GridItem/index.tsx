@@ -16,11 +16,18 @@ export const GridItem = ({ item }:Props) =>{
             <div className={styles.gridTitle}>
                 {item.title}
             </div>
+
             <div className={styles.gridInfo}>
                 <>
                     IMC está entre <strong>{item.imc[0]}</strong> e <strong>{item.imc[1]}</strong>
                 </>
             </div>
+
+            {item.yourImc && 
+                <div className={styles.yourImc}>Seu IMC é de <strong>{item.yourImc} kg/m²</strong></div>
+            }
+
+            
         </div>
     )
 }
